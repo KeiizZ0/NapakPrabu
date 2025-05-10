@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Page - Prabu Siliwangi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .detail-page {
+            padding: 100px 0;
+        }
+        
+        .detail-header {
+            margin-bottom: 40px;
+        }
+        
+        .detail-header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .detail-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .detail-image {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .detail-image img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .detail-text {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .detail-text p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .back-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navbar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h2 style="font-family: Arial, Helvetica, sans-serif;">Prabu Siliwangi</h2>
+                </a>
+            </div>
+            <div class="nav-right">
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#biografi">Biografi</a></li>
+                        <li><a href="index.html#legenda">Legenda</a></li>
+                        <li><a href="index.html#napak">Napak</a></li>
+                        <li><a href="#search" class="search-icon"><i class="fas fa-search"></i></a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#biografi">Biografi</a></li>
+                <li><a href="index.html#legenda">Legenda</a></li>
+                <li><a href="index.html#napak">Napak</a></li>
+                <li><a href="#search"><i class="fas fa-search"></i> Pencarian</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Detail Content -->
+    <section class="detail-page">
+        <div class="container">
+            <div class="detail-header">
+                <h1>Detail Halaman</h1>
+                <p>Halaman ini akan berisi detail informasi tentang item yang dipilih.</p>
+            </div>
+            
+            <div class="detail-content">
+                <div class="detail-image">
+                    <img src="/placeholder.svg?height=600&width=800" alt="Detail Image">
+                </div>
+                
+                <div class="detail-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+                    
+                    <p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet.</p>
+                    
+                    <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>
+                    
+                    <a href="index.html" class="back-button">Kembali ke Beranda</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Prabu Siliwangi</h2>
+                    <p>Di Riset - Susun Oleh : -</p>
+                    <p>Prof. DR. Al-habib Husein Abdulhadi Sulaeman. NS. A. M,Pd</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Tautan</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#biografi">Biografi</a></li>
+                        <li><a href="index.html#legenda">Legenda</a></li>
+                        <li><a href="index.html#napak">Napak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-envelope"></i> info@prabusiliwangi.id</p>
+                    <p><i class="fas fa-phone"></i> +62 123 4567 890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Pajajaran No. 1, Bogor, Jawa Barat</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Media Sosial</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sejarah Prabu Siliwangi. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
